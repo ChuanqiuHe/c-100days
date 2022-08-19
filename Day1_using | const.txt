@@ -7,3 +7,9 @@ Day1:
 // 2.     eg: using  _Tp_alloc_type = typename __gnu_cxx::__alloc_traits<_Alloc>::template rebind<_Tp>::other;
 using在c++11以后又有了一种新的作用，那就是与typedef一样，给类型指定别名，形式是这样的：
 using 别名=类型;
+
+3. const 关键字：
+// https://blog.csdn.net/SMF0504/article/details/52311207#:~:text=c%2B%2B%20%E5%9C%A8%E5%87%BD%E6%95%B0%E5%90%8E%E5%8A%A0,%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%8F%AF%E8%AF%BB%E6%80%A7%E3%80%82
+c++ 函数，前面有const 代表返回值是const；
+         函数后面加const, 代表此函数不能修改class的成员；、、 不然报错
+
