@@ -1,0 +1,9 @@
+Day1:
+
+// 1.    eg:  typedef typename __gnu_cxx::__alloc_traits<_Alloc>::template rebind<_Tp>::other _Tp_alloc_type;
+这个typedef实际上就是给类型取了一个别名，
+将__gnu_cxx::__alloc_traits<_Alloc>::template rebind<_Tp>::other这么一长串的类型取了一个简单的别名，要是不取别名，这样长的类型真的是不忍直视。
+
+// 2.     eg: using  _Tp_alloc_type = typename __gnu_cxx::__alloc_traits<_Alloc>::template rebind<_Tp>::other;
+using在c++11以后又有了一种新的作用，那就是与typedef一样，给类型指定别名，形式是这样的：
+using 别名=类型;
