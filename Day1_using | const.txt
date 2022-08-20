@@ -12,4 +12,8 @@ using 别名=类型;
 // https://blog.csdn.net/SMF0504/article/details/52311207#:~:text=c%2B%2B%20%E5%9C%A8%E5%87%BD%E6%95%B0%E5%90%8E%E5%8A%A0,%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%8F%AF%E8%AF%BB%E6%80%A7%E3%80%82
 c++ 函数，前面有const 代表返回值是const；
          函数后面加const, 代表此函数不能修改class的成员；、、 不然报错
+         
+4. friend 函数： 类的友元函数是定义在类外部，但有权访问类的所有私有（private）成员和保护（protected）成员。尽管友元函数的原型有在类的定义中出现过，但是友元函数并不是成员函数。
+      https://www.runoob.com/cplusplus/cpp-friend-functions.html
+      参数是object，可以直接调用类成员参数   
 
