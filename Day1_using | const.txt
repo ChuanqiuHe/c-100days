@@ -15,5 +15,16 @@ c++ 函数，前面有const 代表返回值是const；
          
 4. friend 函数： 类的友元函数是定义在类外部，但有权访问类的所有私有（private）成员和保护（protected）成员。尽管友元函数的原型有在类的定义中出现过，但是友元函数并不是成员函数。
       https://www.runoob.com/cplusplus/cpp-friend-functions.html
-      参数是object，可以直接调用类成员参数   
+      参数是object，可以直接调用类成员参数  
+      
+      
+5. enum
+http://c.biancheng.net/view/1367.html
+
+
+
+
+
+
+
 
